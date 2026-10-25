@@ -162,7 +162,6 @@ Now, `loaded_model` is ready for making predictions or further training.
 - PyTorch
 - torchvision
 - PIL (Pillow)
-- matplotlib, numpy
 
 Install with `pip install -r requirements.txt`.
 

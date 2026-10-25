@@ -4,13 +4,7 @@ import torch.optim as optim
 import torchvision.transforms as transforms
 import torchvision.datasets as datasets
 from torch.utils.data import DataLoader, random_split
-from torchvision.models import resnet18
 import os
-from torchvision import transforms
-from PIL import Image
-import matplotlib.pyplot as plt
-import numpy as np
-import torch.nn.functional as F
 
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 
