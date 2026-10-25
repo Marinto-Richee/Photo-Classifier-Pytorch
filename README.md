@@ -53,7 +53,7 @@ The transforms include resizing the images to 128x128 pixels and converting them
 The dataset is loaded using the `ImageFolder` class from torchvision:
 
 ```python
-dataset = datasets.ImageFolder(root="iamges", transform=transform)
+dataset = datasets.ImageFolder(root="images", transform=transform)
 ```
 
 The dataset is structured in a folder format, and each subfolder represents a class.
@@ -119,6 +119,7 @@ for epoch in range(num_epochs):
 
     # Printing epoch-wise training details
     print(f"Epoch {epoch+1}/{num_epochs}, Loss: {loss:.4f}, Val Loss: {val_loss:.4f}, Val Accuracy: {val_accuracy:.4f}")
+```
 
 ## Testing Loop
 
